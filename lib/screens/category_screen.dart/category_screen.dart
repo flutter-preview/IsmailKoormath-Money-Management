@@ -34,6 +34,12 @@ class _Category_ScreenState extends State<Category_Screen>
             ),
           ],
         ),
+        Expanded(
+          child: TabBarView(controller: _tabController, children: [
+            Text('Income list here'),
+            Text('Expense list here'),
+          ]),
+        )
       ],
     );
   }
