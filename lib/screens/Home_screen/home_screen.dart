@@ -4,11 +4,11 @@ import 'package:money_management/screens/category_screen.dart/category_screen.da
 import 'package:money_management/screens/transaction_screen/transationscreen.dart';
 
 class Home_screen extends StatelessWidget {
-  const Home_screen({super.key});
+  Home_screen({super.key});
 
   static ValueNotifier<int> selectedIndexNotifier = ValueNotifier(0);
 
-  final _pages = const [
+  final _pages = [
     Transaction_Screen(),
     Category_Screen(),
   ];
